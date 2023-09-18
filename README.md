@@ -5,8 +5,10 @@ Given starting and ending positions and velocities, $L_2$ bounds on the accelera
  A numeric solver is used to reach a goal position and velocity with no more than two constant control inputs. If a coasting phase at the terminal velocity is needed, this requires solving a non-linear equation with a single parameter.
 
  This repository contains a pdf appendix that provides the equations too long for the conference paper.
- In the folder Code, there are three (Mathematica)[https://www.wolfram.com/mathematica/] files:
+ In the folder Code, there are three [*Mathematica*](https://www.wolfram.com/mathematica/) files:
 
 1. MinimumTimeL2velandaccelConstraintsV14.nb -- full code for mathematics of shortest path
 2. PaperFiguresShowingPt1WithArrows.nb -- generates figures in the paper
 3. ReachPointFastest.nb -- code for reaching a point (without stopping or matching a velocity)
+
+Aaron Becker and Victor Montano
